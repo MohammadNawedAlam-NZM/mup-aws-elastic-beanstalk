@@ -45,7 +45,7 @@ export function names(config) {
     app: `mup-${name}`,
     bundlePrefix: `mup/bundles/${name}/`,
     instanceProfile: 'aws-elasticbeanstalk-ec2-role',
-    serviceRole: 'aws-elasticbeanstalk-service-role',
+    serviceRole: 'service-role/aws-elasticbeanstalk-service-role',
     trailBucketPrefix: 'mup-graceful-shutdown-trail',
     trailName: 'mup-graceful-shutdown-trail',
     deregisterRuleName: 'mup-target-deregister',
